@@ -1,0 +1,53 @@
+.aboutText {
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.photo_btns {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.btn {
+    width: 400px;
+    height: 400px;
+    margin: 50px;
+}
+
+.vpic, .hpic {
+    height: 800px;
+    width: 800px;
+}
+
+.PageTop {
+    text-align: center;
+}
+
+.pdfBtns {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pdfDisplay {
+    text-align: center;
+}
+
+.pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
