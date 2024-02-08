@@ -28,6 +28,21 @@
             I have always had an interest in technology even in my youth. I grew up toying with old technologies trying to understand them and get them to work if they did not. My parents always relied on my technological skills to get the wifi working or fix whatever issue was present. I first started learning to code in high school. I was lucky to have a program in my high school that taught us how to code, make software, make games, and animate. My interest in creating video games drove me to learn. When I got to college, I decided to continue my interests but in a more formal manner by studying computer science. I worked an internship that was web development based and was proud to learn so much so quickly. When I transferred to USF, I chose to shift my studies to web development to further my knowledge on the subject. I hope to work in the web development space once again after I graduate. 
             </p>
     </div>
+    <div class="container">
+        <h2>Choose a Background Color</h2>
+        <form id="colorForm">
+            <input type="color" id="colorInput" name="colorInput">
+            <button type="submit">Set Background Color</button>
+        </form>
+    </div>
+    
+    <script>
+        document.getElementById("colorForm").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const color = document.getElementById("colorInput").value;
+            document.body.style.backgroundColor = color;
+        });
+    </script>
 </body>
 
 </html>
