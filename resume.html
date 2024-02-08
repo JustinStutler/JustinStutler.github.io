@@ -8,14 +8,29 @@
 </head>
 
 <body>
-    <nav>
-        <a href="home.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="resume.html">Resume</a>
-    </nav>
-    <div class="aboutText">
+    <div class="PageTop">
         <h1>Resume</h1>
-        <iframe src="Resume.pdf" width="800" height="1000"></iframe>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="resume.html">Resume</a>
+        </nav>
+    </div>
+
+    <div class="pdfBtns">
+        <button onclick="displayPDF('Resume.pdf')">Resume</button>
+        <button onclick="displayPDF('Career_Aspirations.pdf')">Career Aspirations</button>
+    </div>
+
+    <div class="pdfDisplay">    
+        <iframe id="pdfViewer" width="800" height="1000" src="Resume.pdf" frameborder="0"></iframe>
+
+        <script>
+            function displayPDF(pdfPath) {
+                var pdfViewer = document.getElementById('pdfViewer');
+                pdfViewer.src = pdfPath;
+            }
+        </script>
     </div>
 </body>
 
