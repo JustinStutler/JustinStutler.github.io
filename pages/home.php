@@ -20,6 +20,18 @@
     <div class="aboutText">
         <img src="../images/donutSelfie.jpg" alt="vpic" width="20%" height="20%">
         <h2>Hi, I'm Justin Stutler</h2>
+        <p><?php
+            // String 
+            echo "Hello, World!";
+            
+            // Function
+            function helloWorld() {
+                echo "Hello, World!";
+            }
+            
+            // Function Call
+            helloWorld(); 
+            ?></p>
         <p>Explore my time at USF below</p>
     </div>
     <div class="photo_btns">
