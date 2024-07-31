@@ -1,2 +1,2 @@
 # Justin Stutler
-A website for the purpose of exploring Web Page Design and Management.
+A website that displays some information about me and my time spent at USF.
