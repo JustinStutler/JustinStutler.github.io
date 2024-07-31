@@ -11,7 +11,6 @@
     <div class="PageTop">
         <h1>Written Works</h1>
         <nav>
-            <a href="home.html">Home</a>
             <a href="about.html">About</a>
             <a href="resume.html">Resume</a>
             <a href="papers.html">Written Works</a>
@@ -19,6 +18,8 @@
     </div>
 
     <div class="pdfBtns">
+        <button onclick="displayPDF('../pdfs/AV_Case_Study.pdf')">Autonomous Vehicle Case Study</button>
+        <button onclick="displayPDF('../pdfs/CFA_Analysis.pdf')">Computer Fraud and Abuse Act Analysis</button>
         <button onclick="displayPDF('../pdfs/Career_Aspirations.pdf')">Career Aspirations</button>
         <button onclick="displayPDF('../pdfs/Database_Project_Plan.pdf')">Database Project Plan Case Study</button>
         <button onclick="displayPDF('../pdfs/AI_Ethics_Essay.pdf')">AI Ethics Essay</button>
@@ -26,7 +27,7 @@
     </div>
 
     <div class="pdfDisplay">    
-        <iframe id="pdfViewer" width="800" height="1000" src="../pdfs/Resume.pdf" frameborder="0"></iframe>
+        <iframe id="pdfViewer" width="800" height="1000" src="../pdfs/AV_Case_Study.pdf" frameborder="0"></iframe>
 
         <script>
             function displayPDF(pdfPath) {
