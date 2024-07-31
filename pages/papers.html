@@ -4,19 +4,25 @@
 <head>
     <!-- link css -->
     <link rel="stylesheet" href="../styles/style.css">
-    <title>Resume</title>
+    <title>Papers</title>
 </head>
 
 <body>
     <div class="PageTop">
-        <h1>Resume</h1>
+        <h1>Written Works</h1>
         <nav>
             <a href="home.html">Home</a>
             <a href="about.html">About</a>
-            <a href="resume.html">Resume</a>
+            <a href="papers.html">Resume</a>
         </nav>
     </div>
 
+    <div class="pdfBtns">
+        <button onclick="displayPDF('../pdfs/Career_Aspirations.pdf')">Career Aspirations</button>
+        <button onclick="displayPDF('../pdfs/Database_Project_Plan.pdf')">Database Project Plan Case Study</button>
+        <button onclick="displayPDF('../pdfs/AI_Ethics_Essay.pdf')">AI Ethics Essay</button>
+        <button onclick="displayPDF('../pdfs/IPE_Current_Event.pdf')">IPE Current Event</button>
+    </div>
 
     <div class="pdfDisplay">    
         <iframe id="pdfViewer" width="800" height="1000" src="../pdfs/Resume.pdf" frameborder="0"></iframe>
